@@ -1,5 +1,6 @@
 python安装
 python基础语法
+
 python的语言类型：
       python是动态语言，强类型语言；
       静态编译语言：
@@ -12,3 +13,27 @@ python的语言类型：
           不同类型之间操作，必须先强制类型转换为同一类型。print('a'+1)
       弱类型语言：
           不同类型间可以操作，自动隐式转换，JavaScript中console.log(1+'a')
+
+运算符优先级：
+      算术运算符>位运算符>身份运算符>成员运算符>逻辑运算符
+
+python程序控制：
+      顺序、分支、循环
+      if语句：
+          单分支：
+            if condition:
+                代码块
+            condition必须是一个bool类型，这个地方有一个隐式转换bool(condition)
+            if 1<2:
+                print("1 less than 2")
+                      
+          多分支：
+            if condition1:
+                代码块1
+            elif condition2:
+                代码块2
+            elif condition3:
+                代码块3
+            ...
+            else:
+                代码块
