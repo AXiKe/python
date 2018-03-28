@@ -1,1 +1,11 @@
+1、打印1~10；
+   for i in range(10):
+    print(i+1)
 
+2、逆序打印1~10；
+   法一：
+   for i in range(10,0,-1):
+    print(i)
+   法二：
+   for i in range(10):
+    print(10-i)
