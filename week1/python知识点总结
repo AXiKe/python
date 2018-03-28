@@ -37,3 +37,22 @@ python程序控制：
             ...
             else:
                 代码块
+                
+      循环----while语句：
+         语法：
+             while condition:
+                 block
+             当条件满足即condition为ture,进入循环，执行block
+       
+      循环-----for语句：
+         语法：
+            for element in iteratable:
+                block
+            当可迭代对象中有元素可以迭代，进入循环体，执行block
+           
+      range函数，遵循前包后不包原则
+      
+      循环 continue语句：
+         中断当前循环的当次执行，继续下一次循环
+            
+           
