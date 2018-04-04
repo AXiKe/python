@@ -54,5 +54,19 @@ python程序控制：
       
       循环 continue语句：
          中断当前循环的当次执行，继续下一次循环
-            
-           
+     
+     循环 else子句：
+          while condition:
+              block
+          else:
+              block
+          
+          for element in iteratable:
+              block
+          else:
+              block
+          如果循环正常的执行结束，就执行else子句；如果使用break终止，else子句不会执行
+      
+      三目运算符：
+          Python没有三目运算符，但提供了
+          真值 if 条件 else 假值     
